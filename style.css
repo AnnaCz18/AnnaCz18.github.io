@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+margin:0;
+width:100%
+}
+header{
+    display:flex;
+    justify-content: space-between;
+}
+#logo{
+font-size: 30px;
+padding: 2%;
+}
+main{
+
+display: flex;
+justify-content: center;
+padding-top: 5%;
+margin-bottom: 10%;
+}
+.opismnie{
+    width:50%;
+    text-align: center;
+    margin-left: 2%;
+
+}
+.pasje1{
+    display:flex;
+    padding: 10% 2% 0 2%;
+    background-color: rgb(69, 224, 69);
+}
+.storczyk{
+    margin-left: 5%;
+}
+.opisp1{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+ 
+    align-items: center;
+}
+button{
+    width: 10%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.pasje2{
+    display:flex;
+    padding: 10% 2% 0 2%;
+    background-color: rgb(51, 107, 228);
+}
+.rower{
+    margin-left: 5%;
+}
+.opisp2{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.pasje3{
+    display:flex;
+    padding: 10% 0 5% 2%;
+    background-color:rgb(247, 28, 83);
+}
+.farba{
+    
+}
+.opisp3{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pasje4{
+    display:flex;
+    padding: 5% 2% 0 2%;
+    background-color:rgb(243, 21, 21);
+}
+.ksiazka{
+    
+}
+.opisp4{
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wykształcenie{
+    font-size: 40px;
+    text-align: center;
+    padding: 5%;
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+    
+}
+.canva{
+    padding:5%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+  
+}
+.canva1{
+    display: flex;
+    width:70%;
+}
+.canva2{
+    display:flex;
+}
+.canva1 img, .canva2 img{
+max-width: 100%;
+transition: 1s;
+}
+.canva1 img:hover, .canva2 img:hover{
+ transform: scale(1.3);   
+    
+    }
+.canva1, .canva2{
+    width: 100%;
+}
+.canva2 div{
+    flex:1;
+}
+.funk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 15%;
+    
+}
+.canvaopis{
+    margin-bottom: 10%;
+    text-align: center;
+}
+.canva h2{
+    text-align: center;
+}
+footer{
+    border-top: 2px solid black; 
+    text-align: center;
+    padding: 2%;
+}
+#strzałka{
+display: flex;
+justify-content: flex-end;
+
+ 
+}
+/* nawigacja */
+nav{
+display: flex;
+flex-direction: column;
+position: sticky;
+top: 0;
+padding: 2%;
+}
+li{
+font-size: 30px;
+list-style-type:none;
+}
+li>ul
+{
+list-style-type:none;
+padding: 0;
+margin:0;
+display: none;
+position: absolute;
+top:100%;
+width: 100%;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    background-color: seagreen;
+    width: 100%;
+    padding: 10px;
+}
+li:hover > ul
+
+{display: block;
+
+}
