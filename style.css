@@ -10,6 +10,7 @@ width:100%
 #logo{
 font-size: 30px;
 padding: 2%;
+
 }
 main{
 
@@ -29,16 +30,22 @@ width: 100%;
     display:flex;
     padding: 10% 2% 0 2%;
     background-color: rgb(69, 224, 69);
+    position: relative;
 }
 .storczyk{
     margin-left: 5%;
+    max-width: 100%;
 }
+
+   
+
 .opisp1{
     text-align: center;
     display:flex;
     flex-direction: column;
  
     align-items: center;
+    
 }
 button{
     width: 10%;
@@ -89,7 +96,7 @@ button{
     flex-direction: column;
     align-items: center;
 }
-.wykształcenie{
+#wykształcenie{
     font-size: 40px;
     text-align: center;
     padding: 5%;
@@ -128,7 +135,7 @@ transition: 1s;
 .canva2 div{
     flex:1;
 }
-.funk{
+#funk{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,7 +173,7 @@ justify-content: flex-end;
             border:2px solid #000;
             display:flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-evenly;
             align-items: center;
             width:50px;
             height:50px;
@@ -204,4 +211,8 @@ justify-content: flex-end;
     footer{
         margin-left:0;
     }
+}
+a{
+text-decoration: none;
+color:black;
 }
