@@ -237,7 +237,7 @@ justify-content: flex-end;
         }
 
 /* responsywność */
-@media (max-width:500px){
+@media (max-width:px){
     main{
         margin-top: 5%;
         margin-left:0;
