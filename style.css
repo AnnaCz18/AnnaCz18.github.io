@@ -20,24 +20,34 @@ padding-top: 5%;
 margin-bottom: 10%;
 width: 100%;
 }
+main img{
+    max-width: 100%;
+    transition: 1s; 
+}
 .opismnie{
     width:50%;
     text-align: center;
     margin-left: 2%;
 
 }
+/* pasje */
 .pasje1{
     display:flex;
     padding: 10% 2% 0 2%;
     background-color: rgb(69, 224, 69);
     position: relative;
+    
 }
 .storczyk{
     margin-left: 5%;
     max-width: 100%;
-}
-
    
+    
+}
+.storczyk img{
+    max-width: 100%;
+    transition: 1s; 
+} 
 
 .opisp1{
     text-align: center;
@@ -47,12 +57,8 @@ width: 100%;
     align-items: center;
     
 }
-button{
-    width: 10%;
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-}
+
+
 .pasje2{
     display:flex;
     padding: 10% 2% 0 2%;
@@ -60,6 +66,11 @@ button{
 }
 .rower{
     margin-left: 5%;
+    
+}
+.rower img{
+    max-width: 100%;
+    transition: 1s;
 }
 .opisp2{
     text-align: center;
@@ -73,9 +84,10 @@ button{
     padding: 10% 0 5% 2%;
     background-color:rgb(247, 28, 83);
 }
-.farba{
-    
-}
+.farba img{
+    max-width: 100%;
+    transition: 1s; 
+} 
 .opisp3{
     text-align: center;
     display:flex;
@@ -87,9 +99,10 @@ button{
     padding: 5% 2% 0 2%;
     background-color:rgb(243, 21, 21);
 }
-.ksiazka{
-    
-}
+.ksiazka img{
+    max-width: 100%;
+    transition: 1s; 
+} 
 .opisp4{
     text-align: center;
     display:flex;
@@ -211,6 +224,7 @@ justify-content: flex-end;
     footer{
         margin-left:0;
     }
+    
 }
 a{
 text-decoration: none;
