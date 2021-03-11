@@ -13,38 +13,58 @@
 <body>
 <!-- header i nawigacja -->
 <header>
-<div id="logo">Anna Czech </br> &nbsp &nbsp  portfolio</div>
-<nav>
-    <li>A
-    <ul><div>Moje pasje</div></ul>
-    <ul><div>Moje wykształcenie</div></ul>
-    <ul><div>Dlaczego Front-End Developer ?</div></ul>
-    <ul><div>Niezwykłe połączenie</div></ul>  
-    <ul><div>Kontakt</div></ul>
-    </li> 
-</nav>
+    <div id="logo">Anna Czech </br> &nbsp &nbsp  portfolio</div>
+    <nav>
+        <div class="toggler">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <ul class="menu">            
+            <li><div>Moje pasje</div></li>
+            <li><div>Moje wykształcenie</div></li>
+            <li><div>Dlaczego Front-End Developer ?</div></li>
+            <li><div>Niezwykłe połączenie</div></li>  
+            <li><div>Kontakt</div></li>
+        </ul> 
+    </nav>
 </header>
+<script>
+    let isShowed = false;
+    let toggler = document.querySelector(".toggler");
+    let menu = document.querySelector(".menu");
+    toggler.onclick = () => {
+        console.log(isShowed)
+        if(isShowed){
+            menu.style.display = "none";
+        }else{
+            menu.style.display = "block";
+        }
+        isShowed = !isShowed;
+    }
 
+
+</script>
 <!-- moje zdjecie i pare słów o mnie -->
 <main>
     <div class="portret"><img src="Anka.jpg.jpg" /></div> 
     <div class="opismnie"><h2>Parę słów o mnie...</h2> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aspernatur illo provident, nam voluptate harum temporibus aut ad dolorem nobis aliquam blanditiis non sapiente maiores veniam autem hic est qui?</div>
 </main>
 <!-- moje pasje -->
-<div class="pasje1">
+<div class="pasje1" id="pasjenav">
     <div class="opisp1"><h2>rośliny opis</h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores, laudantium. Laboriosam eos cumque labore nisi commodi magni ullam quo adipisci quos quia. Aut ea, est nobis voluptatem nisi eligendi beatae! </br>
-    <button>EXPLORE</button></div>
+    </div>
     <div class="storczyk"><img src="storczyk.png.png"></div>
 </div>
-<div class="pasje2">
+<div class="pasje2" id="pasjenav">
     <div class="opisp2"><h2>rower w górach</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non architecto obcaecati, quisquam ipsa debitis molestias nostrum perferendis in est nulla quae facere quod porro voluptates nam illo vitae nemo!</div>
     <div class="rower"><img src="rower.png.png"></div>
 </div>
-<div class="pasje3">
+<div class="pasje3" id="pasjenav">
     <div class="opisp3"><h2>grafika</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non architecto obcaecati, quisquam ipsa debitis molestias nostrum perferendis in est nulla quae facere quod porro voluptates nam illo vitae nemo!</div>
     <div class="farba"><img src="grafika.png.png"></div>
 </div>
-<div class="pasje4">
+<div class="pasje4" id="pasjenav">
     <div class="opisp4"><h2>Książki od czasu do czasu </h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non architecto obcaecati, quisquam ipsa debitis molestias nostrum perferendis in est nulla quae facere quod porro voluptates nam illo vitae nemo!</div>
     <div class="ksiazka"><img src="książka.png.png"></div>
 </div>
@@ -73,7 +93,7 @@
     Strona stworzona od serca przez Annę Czech
 </br>
 tel. 517-984-050
-<div id="strzałka"><img src="strzałka.png"/></div>
+<a href=#nav><div id="strzałka"><img src="strzałka.png"/></div></a>
 </footer>
 </body>
 </html>
