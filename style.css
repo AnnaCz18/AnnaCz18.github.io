@@ -35,15 +35,13 @@ main img{
     display:flex;
     padding: 10% 2% 0 2%;
     background-color: rgb(69, 224, 69);
-    position: relative;
+   
 }  
 .storczyk{
     margin-left: 5%;
     max-width: 100%;
     display: flex;
     justify-content: end;
-
-    
 }
 .storczyk img{
     max-width: 100%;
@@ -111,6 +109,7 @@ main img{
 .ksiazka{
     display: flex;
     justify-content: end;
+    max-width: 100%;
 }
 .ksiazka img{
     max-width: 100%;
@@ -121,6 +120,7 @@ main img{
     display:flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
 }
 #wykształcenie{
     font-size: 40px;
