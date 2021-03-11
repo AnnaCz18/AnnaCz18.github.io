@@ -22,7 +22,7 @@ width: 100%;
 }
 main img{
     max-width: 100%;
-    transition: 1s; 
+     
 }
 .opismnie{
     width:50%;
@@ -36,25 +36,27 @@ main img{
     padding: 10% 2% 0 2%;
     background-color: rgb(69, 224, 69);
     position: relative;
-    
-}
+}  
 .storczyk{
     margin-left: 5%;
     max-width: 100%;
-   
+    display: flex;
+    justify-content: end;
+
     
 }
 .storczyk img{
     max-width: 100%;
     transition: 1s; 
+    
 } 
 
 .opisp1{
     text-align: center;
     display:flex;
     flex-direction: column;
- 
     align-items: center;
+    width: 60%;
     
 }
 
@@ -66,6 +68,8 @@ main img{
 }
 .rower{
     margin-left: 5%;
+    display: flex;
+    justify-content: end;
     
 }
 .rower img{
@@ -76,13 +80,17 @@ main img{
     text-align: center;
     display:flex;
     flex-direction: column;
-
+    width: 80%;
     align-items: center;
 }
 .pasje3{
     display:flex;
     padding: 10% 0 5% 2%;
     background-color:rgb(247, 28, 83);
+}
+.farba{
+    display: flex;
+    justify-content: end;
 }
 .farba img{
     max-width: 100%;
@@ -93,11 +101,16 @@ main img{
     display:flex;
     flex-direction: column;
     align-items: center;
+    width: 70%;
 }
 .pasje4{
     display:flex;
     padding: 5% 2% 0 2%;
     background-color:rgb(243, 21, 21);
+}
+.ksiazka{
+    display: flex;
+    justify-content: end;
 }
 .ksiazka img{
     max-width: 100%;
@@ -116,7 +129,11 @@ main img{
     display: flex;
  flex-direction: column;
  justify-content: center;
-    
+     
+}
+#wykształcenie img{
+    max-width: 100%;
+    transition: 1s; 
 }
 .canva{
     padding:5%;
@@ -154,6 +171,8 @@ transition: 1s;
     justify-content: center;
     text-align: center;
     padding: 15%;
+    max-width: 100%;
+    transition: 1s; 
     
 }
 .canvaopis{
@@ -167,6 +186,8 @@ footer{
     border-top: 2px solid black; 
     text-align: center;
     padding: 2%;
+    max-width: 100%;
+    transition: 1s; 
 }
 #strzałka{
 display: flex;
