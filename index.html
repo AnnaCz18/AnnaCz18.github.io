@@ -34,16 +34,29 @@
 </header>
 <script>
     let isShowed = false;
+    
+    
     let toggler = document.querySelector(".toggler");
     let menu = document.querySelector(".menu");
     toggler.onclick = () => {
-        console.log(isShowed)
         if(isShowed){
             menu.style.display = "none";
         }else{
             menu.style.display = "block";
         }
         isShowed = !isShowed;
+    }
+    document.body.onclick = (e) => {
+        let isMenu = false;
+        for(p of e.path){
+            if(p == menu || p == toggler){
+                isMenu = true;
+            }
+        }
+        if(!isMenu){
+            menu.style.display = "none";
+            isShowed = false;
+        }
     }
 
 
@@ -113,6 +126,7 @@ tel. 517-984-050
        }
     }
     </script>
-    document.querySelector(".signature").style.display = "none";
+
+   
 </body>
 </html>
